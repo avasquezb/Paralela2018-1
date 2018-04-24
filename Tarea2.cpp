@@ -30,7 +30,7 @@ int main(int argc, char* argv[]){
 
 	int CantTot=0; //cantidad de lineas
 
-	CantTot = ContarLineas(argv[1]);
+	CantTot = ContarLineas(argv[1]); //llamada de la funcion
 	
 	cout<<"Hay "<<CantTot-1<<" lineas en total"<<endl;
 
